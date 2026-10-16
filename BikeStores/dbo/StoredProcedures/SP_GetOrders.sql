@@ -1,12 +1,9 @@
 -- =============================================
--- Author:		<Author,,Name>
--- Create date: <Create Date,,>
--- Description:	<Description,,>
+-- Author:		Muayad
+-- Create date: 16/10/2026
+-- Description:	get all orders
 -- =============================================
-CREATE PROCEDURE SP_GetOrders 
-	-- Add the parameters for the stored procedure here
-	--<@Param1, sysname, @p1> <Datatype_For_Param1, , int> = <Default_Value_For_Param1, , 0>, 
-	--<@Param2, sysname, @p2> <Datatype_For_Param2, , int> = <Default_Value_For_Param2, , 0>
+CREATE PROCEDURE [dbo].[SP_GetOrders] 
 AS
 BEGIN
 	-- SET NOCOUNT ON added to prevent extra result sets from
